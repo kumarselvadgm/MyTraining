@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <style>
+
+    .topMargin {
+        margin-top: 100px;
+    }
+
+    .mainDiv {
+        height:100vh-100px;
+        display:inline-block;
+        width:100%;
+    }
+
+    .menu{
+        width: 33.33%;
+        display: inline-block;
+        color: black;
+        height: 100vh;
+    }
+    .left-menu {
+        background-color:grey;
+    }
+    
+    .left-menu a {
+        /* color: black; */
+        margin-top: 1px;
+        display: block;
+        text-decoration-line: none;
+        padding: 5px;
+        border-color: red;
+        /* border: groove; */
+        border-width: 2.2px !important;
+        border-bottom: dotted;
+    }
+    .full-width {
+        width:100%;
+    }
+    .center-menu {
+        position: absolute;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: white;
+    }
+    .right-menu {
+    position: absolute;
+    }
+    
+    .img {
+       background-image: url("images/Wooden-Background.jpg");
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    </style>
+    <title>WunderList</title>
+    </head>
+    <body>
+    <div class="full-width" style="width:100%"><center><p>Wunderlist <i class="fa fa-bell" aria-hidden="true"></i></p></center></div>
+    <div class="mainDiv">
+        <div id="myleftMenu" class="menu left-menu">
+            <a href="#">    <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp; Inbox</a>
+            <a href="#">Today</a>
+            <a href="#">Private</a>
+            <a href="#">Work</a>
+            <a href="#">Shopping </a>
+            <a href="#">Movies To Watch</a>
+            <a href="#">Add to wishlist</a>
+            <a href="#"> </a>
+        </div>
+        <div style="position:absolute" class="img menu full-width">
+            <div class="menu center-menu"> <input type="text" placeholder="Add an item in 'work'...."></div>
+            <div class="menu right-menu"><p>fbcfghcfghcj</p></div>
+        </div>
+    </div>
+
+    </body>
+</html>
